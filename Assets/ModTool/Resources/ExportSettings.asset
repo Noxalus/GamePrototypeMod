@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: GamePrototype Mod
   _author: Noxalus
-  _description: 
+  _description: This is a mod to add a new item.
   _version: 1.0
   _platforms: 1
   _content: 7
