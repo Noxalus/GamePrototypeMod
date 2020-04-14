@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5820315020707603844}
   - component: {fileID: 3051554847892044417}
   m_Layer: 5
-  m_Name: Button
+  m_Name: CylinderButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7ec5d16eeb30946bb293035d03ead1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _newItem: {fileID: 2926413626600219243, guid: 404be2cd77b9e6b4684dbc569037d58f,
+  _cylinder: {fileID: 2926413626600219243, guid: 404be2cd77b9e6b4684dbc569037d58f,
     type: 3}
 --- !u!1 &5820315021002621406
 GameObject:
@@ -319,7 +319,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Item 3
+  m_Text: Cylinder
 --- !u!1 &5820315022032988614
 GameObject:
   m_ObjectHideFlags: 0
