@@ -21,39 +21,7 @@ MonoBehaviour:
     type:
       nameSpace: ModTool.Interface
       name: ModBehaviour
-  _memberRestrictions:
-  - message: Please use ModBehaviour.Instantiate or ContentHandler.Instantiate instead
-      to ensure proper object creation.
-    applicableBaseType:
-      nameSpace: 
-      name: 
-    restrictionMode: 0
-    memberName:
-      type:
-        nameSpace: UnityEngine
-        name: Object
-      name: Instantiate
-  - message: Please use ModBehaviour.AddComponent or ContentHandler.AddComponent
-      instead to ensure proper component handling.
-    applicableBaseType:
-      nameSpace: 
-      name: 
-    restrictionMode: 0
-    memberName:
-      type:
-        nameSpace: UnityEngine
-        name: GameObject
-      name: AddComponent
-  - message: Creating new GameObjects is not allowed
-    applicableBaseType:
-      nameSpace: 
-      name: 
-    restrictionMode: 0
-    memberName:
-      type:
-        nameSpace: UnityEngine
-        name: GameObject
-      name: .ctor
+  _memberRestrictions: []
   _typeRestrictions: []
   _namespaceRestrictions:
   - message: Reflection is not allowed.
